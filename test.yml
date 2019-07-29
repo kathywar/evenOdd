@@ -1,0 +1,21 @@
+config:
+
+services:
+
+
+steps:
+  analysis:
+    - echo Hello World
+  setup_db:
+
+  test:
+
+  security:
+
+  audit:
+
+
+
+environment:
+
+timeout: 600
