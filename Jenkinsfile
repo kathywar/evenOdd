@@ -2,5 +2,5 @@
 //@Library('evenOdd') _
 
 evenOdd(currentBuild.getNumber())
-echo 'Hello World'
+echo 'Loading wolox-ci library'
 woloxCi('./test.yml')
