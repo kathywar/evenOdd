@@ -1,21 +1,23 @@
 config:
+  project_name: test-project
 
 services:
 
 
 steps:
   analysis:
-    - echo Hello World
+    - echo Doing analysis
   setup_db:
-
+    - echo Doing db setup
   test:
-
+    - echo Doing tests
   security:
-
+    - echo Taking care of security
   audit:
-
-
+    - Performing audits
 
 environment:
+  GIT_COMMITTER_NAME: a
+  GIT_COMMITTER_EMAIL: b
 
 timeout: 600
