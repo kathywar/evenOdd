@@ -2,7 +2,7 @@ config:
   project_name: test-project
 
 services:
-
+  - shellcmd
 
 steps:
   analysis:
