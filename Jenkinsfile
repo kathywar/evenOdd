@@ -3,4 +3,6 @@
 
 evenOdd(currentBuild.getNumber())
 echo 'Loading wolox-ci library'
-woloxCi('./test.yml')
+node {
+  woloxCi('./test.yml')
+}
