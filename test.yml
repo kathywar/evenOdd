@@ -14,7 +14,7 @@ steps:
   security:
     - echo Taking care of security
   audit:
-    - Performing audits
+    - echo Performing audits
 
 environment:
   GIT_COMMITTER_NAME: a
