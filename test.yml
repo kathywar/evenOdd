@@ -1,4 +1,5 @@
 config:
+  dockerfile: ./Dockerfile
   project_name: test-project
 
 services:
