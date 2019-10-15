@@ -8,3 +8,5 @@ instance, and then instantiate the pipeline in your project Jenkinsfile
 
 This will also use an example of global variables from the log.groovy
 definitions
+
+
